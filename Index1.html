@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <body style=background-color:white>
+        <head>
+            <title>Neeraja</title>
+            <link rel="stylesheet" href="style1.css">
+        </head>
+        <fieldset>
+        <h1>Registration Form</h1><br>
+        <form action="/Registration" method="POST">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your first name" required><br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="age" id="age" name="age" placeholder="Enter your age"><br><br>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            <p>Which languages did you know?</p>
+            <input type="checkbox" value="C language" name="C language" id="C language">C Language<br>
+            <input type="checkbox" value="Python" name="Python" id="Python">Python<br>
+            <input type="checkbox" value="Java" name="Java" id="Java">Java<br>
+            <input type="checkbox" value="HTML" name="HTML" id="HTML">HTML<br>
+            <input type="checkbox" value="CSS" name="CSS" id="CSS">CSS<br>
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" placeholder="Enter your course name" required><br><br>
+            <p>How many months you want to participate in our internship </p>
+            <select id="months" name="months">
+                <option value="">Select months</option>
+                <option value="1 month">1 month</option>
+                <option value="3 month">3 months</option>
+                <option value="6 month">6 months</option>
+            </select><br><br>
+            <p>Upload ur Resume</p>
+            <div>
+            <input type="file" name="fileupload" accept="" document><br><br>
+            <a href="secondpage.html"><input type="button" name="submit" value="submit", class="button" ></a>
+            </div>
+            
+        </fieldset>
+    </body>
+</html>

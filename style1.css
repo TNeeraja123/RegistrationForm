@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:10;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+h1{
+   align-items: center; 
+}
+.button{
+    background-color: #cb8ff4;
+    color:black;
+    border-radius: 10;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+}
